@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/prasham/Desktop/DSA/day1'
+relocations:     []
+...
