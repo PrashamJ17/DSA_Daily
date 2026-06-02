@@ -17,7 +17,8 @@ Solving Striver A2Z sheet daily in C++. Targeting ML Engineer → AI Researcher 
 | Step 5 | Strings | 0 / 15 | ⏳ Not Started |
 | Step 6 | Linked List | 0 / 31 | ⏳ Not Started |
 
-## Structure Step_01_Basics/     — patterns, math, recursion, hashing
+## Structure 
+Step_01_Basics/     — patterns, math, recursion, hashing
 Step_02_Sorting/    — bubble, selection, insertion, merge, quick
 Step_03_Arrays/     — easy, medium, hard
 Step_04_BinarySearch/
