@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Compiled binaries (no extension on Mac, .exe on Windows)
+*.out
+*.exe
+a.out
+CppBasics
+day1
+
+# Debug symbols
+*.dSYM/
+
+# VS Code temp files
+tempCodeRunnerFile.cpp
+.vscode/
+
+# Object files
+*.o
+*.obj
