@@ -1,1 +1,35 @@
-- 
+- **cout** << - same as print in python . 
+	- use double quotes for strings - "STRING"
+	- cout << "Text" or variable << endl or \n ; -- endl or \n -- to move cursor to the next line .
+- **cin** >> - to take input from the user . 
+	- initially declare a variable 
+	- then set the variable value to the user input - cin >> var_name
+- **data types** - 
+	- str - string , char - character 
+	- getline(cin , str) - this takes a full sentence input from user and sets to string variable
+	- int , float , double , long , long long .
+	- bool - boolean - true , false .
+- **conditional statements** - 
+	- if(condn - true) { do this} else if(condn-true) { do this} else {do this }
+	- switch(var) { case (var_value)} : break ; ... default }
+- **Arrays - 1D , 2D**
+	- arr[5] - 1D array with 5 values - indexing - 0 to 4. 
+	- arr [rows],[cols] - 2D array - indexing 00 to rows,cols
+	- take input from user using loops , or define yourself 
+	- eg . arr[5] - defined , with values - arr[0] = 1 , arr[1] = 10 , ... like this .
+	- when nothing is defined in the array then garbage value is assigned . 
+- **string methods** - 
+	- string.size() - gives the length of the string
+	- strings in cpp are mutable , can be changed . 
+	- to change a letter in the string use single quotes - ' '
+	- eg . s[len-1] = 'p'
+- **loops - for , while , do while** - 
+	- for(initialize int i = 0, condn i <= 10, incre or decre i++ ){ do this }
+	- while(condn i <= 10){ do this incre or decre comes here} - initialize before the loop
+	- do { do this incre or decre comes here} while (condn i<10) - runs at least once 
+- **functions** -  
+	- void - do not return anything can contain parameters or not . 
+	- return functions - returns something after execution of the function - declared as int fn_name -- int or anything -- data type of the returning value . 
+	- **parameterized function**s - 
+		- pass by value - scope is within the function only , so changes made inside a function , are only for that function .
+		- pass by reference - address of the variable is sent , so the scope is global the changes are visible outside .
