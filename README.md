@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # DSA Daily — Prasham Jain
 
 Solving Striver A2Z sheet daily in C++. Targeting ML Engineer → AI Researcher → AI Founder.
