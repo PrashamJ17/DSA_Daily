@@ -62,5 +62,49 @@ continuing after 6th ->
 7. 
 	- ![[Screenshot 2026-06-03 at 12.42.47 AM.png|161]]
 	- In this the pattern to be printed does not depend on rows or columns . 
-	- we have to start in the middle - so n/2 pe we start . 
-	- then 
+	- we have to start printing at the nth column , then n-1 th column , then n-2 column ... in the form of a triangle not as a right angled triangle .  
+	- how do we do this ??
+		- for this we will need 3 loops - 
+			- 1. for the rows . --> i
+			- 2. to print stars in odd multiples - 2n + 1 --> j
+			- 3. to create blank , white spaces before printing any stars - to form a triangle . this has to decrease every row , so that the printing starts from nth column , then n-1 th column, then n-2 th column ..... till 1st column at the last row .  ---> k
+			- outer loop -> i consists of 2 nested loops -> 
+				- 1st --> to create blank spaces --> k from 1 to n-i ( since i will increase every row , thus no. of blank spaces will decrease every row )
+				- 2nd --> after the blank spaces are created , then print stars --> j from 1 to (2 x i + 1 ) odd multiples of i . 
+
+8.  
+	- ![[Screenshot 2026-06-03 at 7.23.54 PM.png]]
+	- same , rows -> i from 0 to n 
+	- difference will be in k and j 
+	- k --> no space to n space --> k increases --> k=0 to i --> k < i 
+	- j from (n-i )x 2 -1 to 1 --> j>=1 -->j decreases
+
+9. - 
+	- ![[Screenshot 2026-06-03 at 7.54.14 PM.png]]
+	- we are given integer n , --> the no. of rows are 2n . 
+	- it consists of 2 patterns merged together 
+	- w halves upper half and lower half so we need to apply nested loops twice .
+	- after the upper half completed , then the lower half starts . 
+	- int i = 0 to n-1 for for both the halves if we do them both separately 
+	- apply the 7th pattern function for the upper half then 8th pattern function for the lower half 
+	- that is one solution 
+	- We can also do it in 1 nested loop i = 0 to 2 x n  , using if-else block 
+	- if i < n {do the upper half function} else { do the lower half function}
+	- the functions will vary slightly for the lower half , the upper half will remain the same , as now i = n to 2n for the lower half . 
+	- k = n to i --> k++ --> as the white spaces are increasing in lower half from nth to 2n th rows .
+	- j = 2*(2 x n - i) - 1 to 1 --> j -- --> no. of stars are decreasing in lower half . 
+
+10. 
+	 - ![[Screenshot 2026-06-03 at 9.12.35 PM.png]]
+	 - no. of rows --> 2 x n -1 --> int i will go from 0 to 2n-1 . 
+	 - after n rows -> stars decrease --> 2 patterns merged together
+	 - so for j = 0 to i --> print "* " 
+	 - then for i = 0 to n-1 --> i incre 
+	 - j = 0 to n - i - 1 --> j incre --> print "* "
+	 - we can also do another solution like the above pattern 
+	 - using if-else block and nested for loops 
+	 - same function for the upper half from 0 to n --> if block
+	 - for lower half -> else block - 
+	 - we take j --> 2n - i - 1 to 1 --> j decreases . 
+
+11. 
