@@ -11,14 +11,12 @@
             "id": "5857f39a43319295",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "DSA_Basics/Pattern Problems.md",
-                "mode": "source",
-                "source": false
+                "file": "Screenshots/Patterns/Screenshot 2026-06-03 at 7.23.54 PM.png"
               },
-              "icon": "lucide-file",
-              "title": "Pattern Problems"
+              "icon": "lucide-image",
+              "title": "Screenshot 2026-06-03 at 7.23.54 PM"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "437554737bc16a80",
@@ -184,22 +181,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "5857f39a43319295",
+  "active": "6b90ca07e7e6221d",
   "lastOpenFiles": [
-    "Screenshot 2026-06-03 at 9.12.35 PM.png",
-    "Screenshot 2026-06-03 at 7.54.14 PM.png",
-    "Screenshot 2026-06-03 at 7.23.54 PM.png",
-    "Screenshot 2026-06-03 at 12.42.47 AM.png",
-    "Screenshots/Patterns/Screenshot 2026-06-02 at 6.59.56 PM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-05 at 12.12.19 AM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-04 at 12.30.55 AM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-04 at 7.00.57 PM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-04 at 6.57.55 PM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-04 at 6.21.37 PM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-03 at 12.42.47 AM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-03 at 9.12.35 PM.png",
+    "Screenshots/Patterns/Screenshot 2026-06-03 at 7.54.14 PM.png",
+    "Screenshots/Screenshot 2026-06-05 at 12.12.19 AM.png",
+    "Screenshots/Screenshot 2026-06-04 at 12.30.55 AM.png",
+    "Screenshots/Screenshot 2026-06-04 at 7.00.57 PM.png",
     "DSA_Basics/Pattern Problems.md",
-    "Screenshots/Patterns/Screenshot 2026-06-02 at 6.31.39 PM.png",
     "Screenshots/Patterns",
     "Screenshots/Time complexity",
-    "Screenshots/Patterns/Screenshot 2026-06-02 at 6.55.55 PM.png",
-    "Screenshots/Patterns/Screenshot 2026-06-02 at 6.53.06 PM.png",
-    "Screenshots/Patterns/Screenshot 2026-06-02 at 6.50.42 PM.png",
-    "Screenshot 2026-06-02 at 6.48.25 PM.png",
-    "Screenshot 2026-06-02 at 6.47.33 PM.png",
     "Untitled.md",
     "DSA_Basics/Time complexity.md",
     "Screenshots",

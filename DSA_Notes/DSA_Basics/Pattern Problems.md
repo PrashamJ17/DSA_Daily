@@ -79,7 +79,7 @@ continuing after 6th ->
 	- k --> no space to n space --> k increases --> k=0 to i --> k < i 
 	- j from (n-i )x 2 -1 to 1 --> j>=1 -->j decreases
 
-9. - 
+9.  
 	- ![[Screenshot 2026-06-03 at 7.54.14 PM.png]]
 	- we are given integer n , --> the no. of rows are 2n . 
 	- it consists of 2 patterns merged together 
@@ -107,4 +107,37 @@ continuing after 6th ->
 	 - for lower half -> else block - 
 	 - we take j --> 2n - i - 1 to 1 --> j decreases . 
 
-11. 
+11.  
+    -  ![[Screenshot 2026-06-04 at 12.30.55 AM.png]]
+	-  we start i = 1 to n ; 
+	-  for even i --> i % 2 == 0 --> j = 0 to i ,  != i --> cout << j % 2
+	- for odd i --> j = 1 to i , == i , --> cout << j % 2 . 
+
+12. 
+	- ![[Screenshot 2026-06-04 at 6.21.37 PM.png]]
+	- 3 for loops 
+	- i -> 1 to n -> for the rows -> n
+	- j -> 1 to i --> cout < j 
+	- k -> create white spaces in the middle -> 1 to 2 x (n-i) -> cout << "  "
+	- j -> n to 1 --> cout << j 
+	- cout << endl 
+
+13. 
+    - ![[Screenshot 2026-06-04 at 6.57.55 PM.png]]
+	- initialize a variable num = 1
+	- increment its value and cout << num 
+
+14. - 
+	- ![[Screenshot 2026-06-04 at 7.00.57 PM.png]]
+	- use ASCII characters instead of no.s that's it . 
+	- 65-90 --> A,B,C,D,E......Z
+	- 91-116 --> a,b,c,d,e......z
+	- string --> str
+	- character -> char
+	- instead of integer int , we use char data type to initialize j . 
+	- j = 'A' , j<'A' + i , j++; same as before patterns. 
+
+15. 
+	- ![[Screenshot 2026-06-05 at 12.12.19 AM.png]]
+	- same as pattern - 6 . 
+	- except for no.s we use char, ascii character .
