@@ -127,7 +127,7 @@ continuing after 6th ->
 	- initialize a variable num = 1
 	- increment its value and cout << num 
 
-14. - 
+14.  
 	- ![[Screenshot 2026-06-04 at 7.00.57 PM.png]]
 	- use ASCII characters instead of no.s that's it . 
 	- 65-90 --> A,B,C,D,E......Z
@@ -141,3 +141,30 @@ continuing after 6th ->
 	- ![[Screenshot 2026-06-05 at 12.12.19 AM.png]]
 	- same as pattern - 6 . 
 	- except for no.s we use char, ascii character .
+
+16. 
+		- ![[Screenshot 2026-06-05 at 12.39.02 AM.png]]
+	- same as above pattern - 4
+
+17.  
+	- ![[Screenshot 2026-06-05 at 12.49.38 AM.png]]
+
+18. 
+	- ![[Screenshot 2026-06-05 at 1.03.25 AM.png]]
+	- 
+
+19. 
+	- ![[Screenshot 2026-06-05 at 1.10.05 AM.png]]
+	- 
+
+20. 
+	- ![[Screenshot 2026-06-05 at 1.56.03 AM.png]]
+
+
+21. - 
+	- ![[Screenshot 2026-06-05 at 2.02.23 AM.png]]
+	- - 
+
+22. - 
+	- ![[Screenshot 2026-06-05 at 2.19.16 AM.png]]
+	- 
